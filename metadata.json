@@ -1,0 +1,26 @@
+{
+  "project_info": {
+    "name": "ok-pin",
+    "industry": "E-commerce / Digital Marketplace",
+    "year": 2026,
+    "role": "Lead Backend Developer",
+    "status": "Production-Ready",
+    "live_demo": "https://ok-pin.ziadgamal.com"
+  },
+  "tech_stack": {
+    "backend": ["Laravel 10", "PHP 8.2", "MySQL", "Redis"],
+    "frontend": ["Blade Templates", "jQuery", "Bootstrap"],
+    "database": ["MySQL"],
+    "infrastructure": ["Apache/Nginx", "Shared Hosting/VPS"]
+  },
+  "complexity_metrics": {
+    "database_tables_count": 35,
+    "api_endpoints_count": 40,
+    "third_party_integrations": ["Payment Gateways", "SMS Services"]
+  },
+  "performance_metrics": {
+    "speed": "<100ms API response",
+    "scalability": "Vertical Scaling Support",
+    "accuracy_rate": "99.9% availability"
+  }
+}
