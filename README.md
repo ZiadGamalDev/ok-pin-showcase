@@ -14,19 +14,20 @@ OK-PIN is a comprehensive digital trading platform designed to facilitate secure
 ## Gallery
 
 ### Dashboard Overview
-![Home Page](./screenshots/home.png)
+### Dashboard Overview
+<img src="./screenshots/home.png" width="800" alt="Dashboard Overview">
 
 ### Game Voucher Catalog
-![Game Vouchers](./screenshots/games.png)
+<img src="./screenshots/games.png" width="800" alt="Game Voucher Catalog">
 
 ### Top-Up Services
-![Top Up Services](./screenshots/topup.png)
+<img src="./screenshots/topup.png" width="800" alt="Top-Up Services">
 
 ### Purchase Flow
-![Checkout](./screenshots/buy.png)
+<img src="./screenshots/buy.png" width="800" alt="Purchase Flow">
 
 ### User Profile & Wallet
-![User Profile](./screenshots/profile.png)
+<img src="./screenshots/profile.png" width="800" alt="User Profile & Wallet">
 
 ## Key Features
 
