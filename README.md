@@ -1,34 +1,21 @@
-# OK-PIN - Digital Products Marketplace Platform
+# OK-PIN: REST API for a digital-cards mobile app
 
-**A robust, scalable marketplace for digital assets, game vouchers, and top-up services.**
+Backend API I built (Laravel) for OKPIN, a mobile app for buying game top-ups, voucher codes and gift cards. Built in 2024 as part of a Dinamo team (Flutter app and admin dashboard by teammates), then handed over to the client's next developer.
 
-OK-PIN is a comprehensive digital trading platform designed to facilitate secure and efficient transactions for digital goods. It connects buyers and sellers in a regulated environment, ensuring fraud protection and instant delivery of digital codes.
+## What I built
+- Authentication: email and WhatsApp OTP, password reset, JWT, plus PIN, fingerprint and face login endpoints.
+- Catalog and purchase flows for top-up services, voucher cards and gift cards, with voucher serials and expiry dates.
+- Wallet and points payments, and a Stripe card payment used for testing until the client chose a gateway.
+- Merchant (wholesale) pricing next to the normal user price.
+- Support tickets with messages, push-style notifications over Pusher, search, reports, and app configuration endpoints (languages, countries, terms, privacy).
+- A Postman collection documenting every endpoint, used by the client's next developer.
 
-## Business Impact
+## Facts you can check
+- Stack: Laravel 10 on PHP 8.1, JWT auth, Stripe, Pusher.
+- Size of the API repo (measured 2024-12 code, counted 2026-11): 43 commits, about 5,400 lines of PHP in `app/`, 64 route definitions in `routes/api.php`, 4 feature test files for auth.
+- The admin dashboard and storefront in the final product are a licensed CodeCanyon script (Gamers Arena by Bug-Finder) owned by the client; I merged my API into it in December 2024. Its source is not mine to share.
 
-- **Automated Delivery**: Reduced manual processing by 99% through instant code delivery via SMS/Email.
-- **Fraud Prevention**: Integrated KYC (Know Your Customer) and tiered user verification drastically reduced chargeback risks.
-- **Marketplace Liquidity**: The user-to-user selling feature increased inventory diversity by 300% without direct stock investment.
-- **Scalability**: Successfully handled high-concurrency traffic during sales events with zero downtime.
+## Status
+Delivered and handed over in December 2024. No public demo (the old demo domain is offline). The source is private and belongs to the client's project.
 
-## Gallery
-
-### Dashboard Overview
-### Dashboard & Catalog
-<img src="./screenshots/home.png" width="48%" alt="Dashboard Overview" style="margin-right: 2%;"> <img src="./screenshots/games.png" width="48%" alt="Game Voucher Catalog">
-
-### Checkout Process
-<img src="./screenshots/topup.png" width="48%" alt="Top-Up Services" style="margin-right: 2%;"> <img src="./screenshots/buy.png" width="48%" alt="Purchase Flow">
-
-### User Management
-<img src="./screenshots/profile.png" width="48%" alt="User Profile & Wallet">
-
-## Key Features
-
-- **Multi-Vendor Capabilities**: Users can sell their own digital assets securely.
-- **Advanced Wallet System**: Supports deposits, withdrawals, and hold-funds logic.
-- **Dynamic Pricing**: Tiered pricing models for retail and wholesale users.
-- **Secure Transactions**: Pessimistic locking to prevent double-spending of serial codes.
-
----
-[Contact Me for Source Code License](https://ziadgamal.com)
+Contact: https://ziadgamal.com

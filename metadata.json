@@ -1,26 +1,22 @@
 {
   "project_info": {
     "name": "ok-pin",
-    "industry": "E-commerce / Digital Marketplace",
-    "year": 2026,
-    "role": "Lead Backend Developer",
-    "status": "Production-Ready",
-    "live_demo": "https://ok-pin.ziadgamal.com"
+    "industry": "E-commerce / Digital Marketplace (mobile app API)",
+    "year": 2024,
+    "role": "Backend Developer",
+    "status": "Delivered Dec 2024, handed over, no public demo",
+    "live_demo": null
   },
   "tech_stack": {
-    "backend": ["Laravel 10", "PHP 8.2", "MySQL", "Redis"],
-    "frontend": ["Blade Templates", "jQuery", "Bootstrap"],
-    "database": ["MySQL"],
-    "infrastructure": ["Apache/Nginx", "Shared Hosting/VPS"]
+    "backend": ["Laravel 10", "PHP 8.1", "JWT", "Stripe", "Pusher"],
+    "frontend": ["Flutter app and Blade dashboard by teammates (not my work)"],
+    "database": ["MySQL (script default; not verified for the API repo)"]
   },
-  "complexity_metrics": {
-    "database_tables_count": 35,
-    "api_endpoints_count": 40,
-    "third_party_integrations": ["Payment Gateways", "SMS Services"]
+  "measured_facts": {
+    "api_repo_commits": 43,
+    "api_php_lines_in_app": "about 5400 (wc -l, 2026-11-05)",
+    "api_route_definitions": 64,
+    "source": "superpin repo, measured 2026-11-05"
   },
-  "performance_metrics": {
-    "speed": "<100ms API response",
-    "scalability": "Vertical Scaling Support",
-    "accuracy_rate": "99.9% availability"
-  }
+  "notes": "Dashboard and storefront are a licensed third-party script (Gamers Arena, CodeCanyon) owned by the client. No performance or availability figures were measured."
 }
